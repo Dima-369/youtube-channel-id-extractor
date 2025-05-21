@@ -22,7 +22,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         )
         .get_matches();
 
-    let api_key = "AIzaSyAJlj1c-bcQSCxUOutGUVR3uOzdjHwk3Xk";
+    let api_key = std::env::var("YOUTUBE_API_KEY").expect("YOUTUBE_API_KEY is not set");
 
     // Get the URL from the command line arguments
     let url = matches.get_one::<String>("url").unwrap();
