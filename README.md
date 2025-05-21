@@ -1,3 +1,5 @@
+**The API key is hardcoded, so don't make public!**
+
 Requires the YouTube Data API v3, get a key from:
 
 - Go to https://console.cloud.google.com
