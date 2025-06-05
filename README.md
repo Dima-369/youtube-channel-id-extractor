@@ -1,3 +1,5 @@
+**README is AI slop, beware. It is not cleaned up!**
+
 # YouTube Channel ID Extractor
 
 The **YouTube Channel ID Extractor** is a command-line tool that extracts a YouTube Channel ID from a provided URL using YouTube's Data API v3.
